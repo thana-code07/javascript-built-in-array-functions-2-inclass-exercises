@@ -7,7 +7,9 @@
     - เมื่อ Algorithm นี้ทำงาน จะต้องเห็นผลลัพธ์ด้านล่าง
 */
 
-// Start coding here
+function availableSeat (guestList, number) {
+  return guestList.slice(0, number);
+};
 
 const guestList = [
   "John",

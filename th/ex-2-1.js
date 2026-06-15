@@ -8,7 +8,10 @@
     - เมื่อ Algorithm นี้ทำงาน จะต้องเห็นผลลัพธ์ด้านล่าง
 */
 
-// Start coding here
+function organizeSeat (guestList, startSeatNo, numberOfGuest) {
+  let result = guestList.splice(startSeatNo, numberOfGuest);
+  return guestList;
+};
 
 const guestList = [
   "John",
